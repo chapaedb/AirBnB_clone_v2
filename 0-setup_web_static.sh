@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A script that installs a nginx server
+# Script that installs a nginx server
 apt-get update -y
 apt-get install nginx -y
 mkdir -p /data/web_static/shared/
